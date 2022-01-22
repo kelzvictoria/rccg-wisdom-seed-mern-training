@@ -1,0 +1,124 @@
+ALALADE PAUL
+
+ASSIGNMENT 2
+
+1. What does CSS stands for?
+  Answer
+CSS stands for Cascading Stylesheet and its used to stylize elements written in a markup language such as HTML.
+
+2. What are the simple CSS Selectors?
+  Answer
+ Simple selectors (select elements based on name,id,class)
+(a) Element selector -	The element selector selects HTML elements based on the element name.
+ Syntax: p {
+            text-align: center;
+            color: red;
+           }
+(b) The CSS Id Selector - The Id selector uses the id attribute of an HTML element to select a specific element.
+The Id of an element is unique within a page, so the Id selector is used to select one unique element!
+To select an element with a specific Id, write a (#) character, followed by the Id of the element.
+Syntax: The CSS rule below will be applied to the HTML element with id="para1".
+        #para1 {
+            text-align: center;
+            color: red;
+              }
+Note: An Id name cannot start with a number!
+(c) The CSS class Selector - The class selector selects HTML elements with a specific class attribute.
+To select elements with a specific class, write a period(.) character, followed by the class name. 
+Syntax: All HTML elements with class="center" will be red and center-aligned:
+       .center{
+         text-align: center;
+         color: red;
+         }
+You can also specify that only specific HTML elements should be affected by a class.
+Syntax: Only <p> elements with class="center" will be red and center-aligned:
+       p.center {
+          text-align: center;
+          color: red;
+              }
+HTML elements can also refer to more than one class.
+Syntax: The <p> element will be styled according to class="center" and to class="large":
+        <p class="center large">This paragraph refers to two classes.</p>
+Note: A class name cannot start with a number!
+(d) The CSS Universal Selector
+  The universal selector (*) selects all HTML elements on the page.
+Syntax: The CSS rule below will affect every HTML element on the page:
+        * {
+          text-align: center;
+          color: blue;
+          }
+
+3. Add any 10 font awesome icons of your choice to your web page.
+   Answer
+   <!DOCTYPE html>
+<html>
+<head>
+<script src="https://kit.fontawesome.com/13ff8cffa7.js" crossorigin="anonymous">
+</script>
+</head>
+<body>
+
+<i class="fas fa-cloud">
+</i>
+
+<i class="fas fa-heart">
+    
+</i>
+<i class="fas fa-archive">
+</i>
+<i class="fas fa-apple-alt">
+</i>
+<i class="fas fa-archway">
+</i>
+<i class="fas fa-bars">
+</i>
+<i class="fas fa-bath">
+</i>
+<i class="fas fa-basketball-ball">
+</i>
+<i class="fas fa-bell">
+</i>
+<i class="fas fa-beer">
+</i>
+<i class="fas fa-bed">
+</i>
+</body>
+</html>
+
+4. Go to w3schools.com.css, read more about CSS, Responsive web design, CSS icons and write short notes on what you learn.
+   Answer
+        CSS
+  CSS is the language we use to style an HTML document.
+ CSS describes how HTML elements should be displayed on screen, paper, or in other media.
+ CSS saves a lot of work. It can control the layout of multiple web pages all at once
+ External stylesheets are stored in CSS files.
+   CSS is used to define styles for your web pages, including the design, layout and variations in display for different devices and screen sizes.
+ A CSS rule consists of a selector and a declaration block.
+Syntax: h1 {color:blue; font-size:12px}
+ The selector points to the HTML element you want to style.
+ The declaration block contains one or more declarations seperated by semicolons.
+ Each declaration includes a CSS property name and a value, separated by a colon.
+ Multiple CSS declarations are separated with semicolons, and declaration blocks are surrounded by curly braces.
+Example: In this example all <p> elements will be center-aligned, with a red text color:
+   p {
+      color: red;
+      text-align: center;
+      }
+Example in Details:
+ * p is a selector in CSS (it points to the HTML element you want to style: <p>).
+ * color is a property, and red is the property value
+ * text-align is a property, and center is the property value.
+
+         RESPONSIVE WEB DESIGN
+ Responsive web design is about creating web pages that look good on all devices!
+ A reponsive web design will automatically adjust for different screen sizes and viewports.
+ Responsive Web Design is about using HTML and CSS to automatically resize, hide, shrink, or enlarge, a website, to make it look good on all devices
+ (desktops, tablets, and phones).
+ Web pages should not leave out information to fit smaller devices, but rather adapt its content to fit any device.
+
+       CSS ICONS
+ Icons can easily be added to your HTML page, by using an icon library.
+ The simplest way to add an icon to your HTML page, is with an icon library, such as Font Awesome.
+   How To Add Icons
+  Add the name of the specified icon class to any inline HTML element (like <i> or <span>).
+  All the icons in the icon libraries below, are scalable vectors that can be customized with CSS (size, color, shadow, etc). 

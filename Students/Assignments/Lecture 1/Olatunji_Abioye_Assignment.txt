@@ -1,0 +1,28 @@
+TWS Web Application Assignment
+Q1.	Find in Visual studio code
+ 
+Q2. 	What does HTML stand for?
+A2	HTML stands for Hypertext Markup Language
+
+Q3. 	What does the <!DOCTYPE html> signify?
+A3.	<!DOCTYPE html> signifies that the document is an HTML document, when opened in the brower.
+
+Q4. 	What is the root element of every web page?
+A4.	The root element of every web page the <html> element.
+
+Q5. 
+
+A. HTML Formatting Elements
+Formatting elements were designed to display special types of text:
+
+<b> - Bold text
+<strong> - Important text
+<i> - Italic text
+<em> - Emphasized text
+<mark> - Marked text
+<small> - Smaller text
+<del> - Deleted text
+<ins> - Inserted text
+<sub> - Subscript text
+<sup> - Superscript text
+

@@ -1,0 +1,44 @@
+ABIOYE OLATUNJI
+
+Q1. What does CSS stand for?
+A1.Cascading Syle Sheet
+
+Q2. What are the simple CSS Selectors
+A2. 	1. Element Selector
+	2. Id Selector
+	3. Class Selector
+	4. Universal Selector
+
+Q3. Add any 10 font awesome icons of your choice to your web page.
+A3. Find in Visual Studio Code
+
+
+Q4. Short notes on what i have learnt
+
+Responsive Web Design - Templates
+I learnt that I could get responsive web design template at W3.CSS Web Site Templates.
+They have created some responsive templates with the W3.CSS framework.
+I am free to modify, save, share, and use them in all your projects.
+
+CSS Grid
+Grid Layout
+The CSS Grid Layout Module offers a grid-based layout system, with rows and columns, making it easier to design web pages without having to use floats and positioning.
+
+Browser Support
+The grid properties are supported in all modern browsers - Chrome, Firefo, Edge, Opera
+
+Grid Elements
+A grid layout consists of a parent element, with one or more child elements.
+
+Example
+<div class="grid-container">
+  <div class="grid-item">1</div>
+  <div class="grid-item">2</div>
+  <div class="grid-item">3</div>
+  <div class="grid-item">4</div>
+  <div class="grid-item">5</div>
+  <div class="grid-item">6</div>
+  <div class="grid-item">7</div>
+  <div class="grid-item">8</div>
+  <div class="grid-item">9</div>
+</div>

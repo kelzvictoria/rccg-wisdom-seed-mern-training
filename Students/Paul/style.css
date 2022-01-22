@@ -1,0 +1,21 @@
+body {
+  background-color: #3498db;
+}
+* {
+  color: white;
+}
+#my_img {
+  height: 100px;
+  width: 100px;
+}
+table,
+th,
+td {
+  text-align: center;
+  border: 1px solid #fff;
+}
+@media (max-width: 600px) {
+  body {
+    background-color: #e67e22;
+  }
+}
